@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container, .form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.btn-group .btn, .btn, .back {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.delete {
+    background: red;
+}
+
+.delete:hover {
+    background: darkred;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.back {
+    background: gray;
+}
+
+.back:hover {
+    background: black;
+}

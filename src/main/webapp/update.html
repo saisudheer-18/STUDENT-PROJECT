@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Update Student</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="form-container">
+<h2>Update Student</h2>
+
+<form action="UpdateServlet" method="post">
+
+    <input type="text" name="studentId" placeholder="Enter Student ID" required>
+
+    <input type="text" name="studentName" placeholder="New Name">
+
+    <input type="email" name="email" placeholder="New Email">
+
+    <input type="text" name="course" placeholder="New Course">
+
+    <input type="number" name="age" placeholder="New Age">
+
+    <button type="submit" class="btn">Update</button>
+    <a href="index.html" class="back">Back</a>
+</form>
+
+</div>
+</body>
+</html>
